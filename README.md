@@ -45,6 +45,7 @@ go version
 
 6. **Clonar o projeto**
 ```bash
+cd /usr/local
 git clone https://github.com/clsshbr2/eclipse_go.git
 cd eclipse_go
 ```

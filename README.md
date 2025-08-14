@@ -54,7 +54,7 @@ cd eclipse_go
 go mod tidy
 ```
 
-8. **Criar json**
+8. **Criar config.json**
 ```bash
 {
     "authToken": "senha_da_vps_base64",

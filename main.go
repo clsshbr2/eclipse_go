@@ -91,7 +91,7 @@ func handleRoot(w http.ResponseWriter, r *http.Request) {
 		out, err := execCommand(req.ExecCmd)
 		if err != nil {
 			json.NewEncoder(w).Encode(map[string]interface{}{
-				"icon": "error", "mensagem": "Erro ao executar comando",
+				"icon": "error", "mensagem": "Erro ao executar comando:", "error": err,
 			})
 			return
 		}

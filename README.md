@@ -68,3 +68,12 @@ go mod tidy
 ```bash
 go run main.go
 ```
+
+---
+
+ **Instalação automatica**
+```bash
+wget https://raw.githubusercontent.com/clsshbr2/eclipse_go/main/install.sh
+chmod +x install.sh
+./install.sh
+```

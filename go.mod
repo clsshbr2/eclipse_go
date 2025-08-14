@@ -1,6 +1,6 @@
 module aprendendo-go
 
-go 1.24.4
+go 1.25.0
 
 require github.com/go-co-op/gocron v1.37.0
 
